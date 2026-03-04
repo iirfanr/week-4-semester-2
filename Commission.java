@@ -6,7 +6,7 @@ public class Commission extends Hourly
     /* The constructor takes 6 parameters: the first 5 are the same as for Hourly (name, address, phone number, social security
 number, hourly pay rate) and the 6th is the commission rate for the employee. The constructor should call the constructor
 of the parent class with the first 5 parameters then use the 6th to set the commission rate. */
-    public Commission(String eName, String eAddress, String ePhone,
+    public Commission (String eName, String eAddress, String ePhone,
                       String socSecNumber, double rate, double CommissionRates)
     {
         super (eName, eAddress, ePhone, socSecNumber, rate);
