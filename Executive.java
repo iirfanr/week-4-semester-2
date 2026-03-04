@@ -6,7 +6,7 @@
 public class Executive extends Employee
 {
     private double bonus;
-    
+
     //-----------------------------------------------------------------
     // Sets up an executive with the specified information.
     //-----------------------------------------------------------------
