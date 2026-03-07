@@ -1,5 +1,12 @@
 package task2;
 
-public class Shape {
-    
+abstract public class Shape {
+
+    String shapeName;
+
+    abstract double area();
+
+    void toString(String shapeName) {
+        System.out.println("The shape is: " + shapeName);
+    }
 }

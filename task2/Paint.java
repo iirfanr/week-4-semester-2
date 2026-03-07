@@ -26,6 +26,6 @@ public class Paint
     {
         System.out.println ("Computing amount for " + s);
 
-        return 0;
+        return s.area() / coverage;
     }
 }

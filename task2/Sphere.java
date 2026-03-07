@@ -14,7 +14,7 @@ public class Sphere extends Shape
     //----------------------------------
     public Sphere(double r)
     {
-        super("Sphere");
+        super.toString("Sphere");
         
         radius = r;
     }
@@ -24,7 +24,7 @@ public class Sphere extends Shape
     //-----------------------------------------
     public double area()
     {
-    return 4*Math.PI*radius*radius;
+        return 4*Math.PI*radius*radius;
     }
 
     //-----------------------------------
